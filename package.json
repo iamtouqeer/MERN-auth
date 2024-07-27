@@ -2,8 +2,12 @@
   "name": "MERN-AUTH",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "license": "MIT",
+  "scripts": {
+    "start": "node backend/serveer.js",
+    "server": "nodemon backend/serveer.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
@@ -11,5 +15,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
